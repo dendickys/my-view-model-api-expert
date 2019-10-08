@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void showLoading (Boolean state) {
+    private void showLoading(Boolean state) {
         if (state) {
             progressBar.setVisibility(View.VISIBLE);
         } else {
