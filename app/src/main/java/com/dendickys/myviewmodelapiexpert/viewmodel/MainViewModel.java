@@ -25,7 +25,7 @@ public class MainViewModel extends ViewModel {
     private static final String API_KEY = "08017d6051a60116c61e6a007020685a";
     private MutableLiveData<ArrayList<WeatherItems>> listWeathers = new MutableLiveData<>();
 
-    void setWeather(final String cities) {
+    public void setWeather(final String cities) {
         //request API
         AsyncHttpClient client = new AsyncHttpClient();
         final ArrayList<WeatherItems> listItems = new ArrayList<>();
@@ -64,7 +64,7 @@ public class MainViewModel extends ViewModel {
         });
     }
 
-    LiveData<ArrayList<WeatherItems>> getWeathers() {
+    public LiveData<ArrayList<WeatherItems>> getWeathers() {
         return listWeathers;
     }
 }
