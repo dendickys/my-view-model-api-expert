@@ -11,8 +11,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.dendickys.myviewmodelapiexpert.R;
 import com.dendickys.myviewmodelapiexpert.model.WeatherItems;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
 public class WeatherAdapter extends RecyclerView.Adapter<WeatherAdapter.WeatherViewHolder> {
